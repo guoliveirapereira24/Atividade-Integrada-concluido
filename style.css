@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+    align-items: center;
+    opacity: 80%;
+}
+.links a:hover{
+    color: crimson;
+}
+.links ul{
+    background-color: black;
+    gap: 20px;
+    display: flex;
+    list-style-type: none;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    user-select: none;
+    transition: all 1s;
+}
+.AreaAluno{
+    color: black;
+    font-size: 30px;
+    background-color: darkcyan;
+    border-radius: 30px;
+    border: 4px solid yellow;
+    width: 60px;
+    
+}
+.Topo img{
+    width: 230px;
+}
+.capa{
+    width: 99vw;
+    height: 100vh;
+    background: url(img/Capa.jpg);
+    background-size: cover;
+    display: flex;
+    flex-grow: 1;
+    color: white;
+    overflow-x: hidden;
+    padding: 40vh 44vw;
+
+}
+H1{
+    display: flex;
+    font-size: 60px;
+}
+p{
+    font-size: 19px;
+}
+.Titulo{
+    margin-left: 820px;
+    display: flex;
+    padding: 5vh;
+    color: whitesmoke;
+}
+.FPOOpag , .LIMA  {
+    width: 99vw;
+    height: 105vh;
+    background: url(img/Fundo.jpg);
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.TextoFPOO , .TextoLIMA  {
+    
+    flex-direction: row;
+    margin-left: 50px;
+    height: 200px;
+    width: 800px;
+}
+.FPOO_video , .VideoLIMA {
+    
+    height: 900px;
+    padding: -700px 0vw;
+    margin-left: 1000px;
+    align-items: center;
+}
+
+.TextoHARE , .TextoSOP  {
+    border-radius: 20px;
+    background: black;
+    border: 5px solid grey;
+    flex-direction: row;
+    margin-left: 60px;
+    width: 90vw;
+
+
+}
+.SOP,.HARE{
+    flex-direction: column;
+    width: 99vw;
+    height: 105vh;
+    background: url(img/Fundo.jpg);
+    flex-grow: 1;
+    display: flex;
+    background-size: cover;   
+}
+.SOP h2 , .HARE h2{
+margin-left: 700px;
+}
+.ModeloOsi , .VideoSOP  {
+    display: flex;
+    flex-direction: row;
+    padding: 70px;
+}
+.FPOOpag p{
+    width: 680px;
+    height: 400px;
+    font-size: 30px;
+    color: whitesmoke;
+    opacity: 90%;
+}
+.JavaEscrito{
+    margin-left: 300px; ;
+}
+p{
+    color: whitesmoke;
+    opacity: 90%;
+    font-size: 20px;
+}
+h2{
+    color: whitesmoke;
+    margin-left: 260px;
+    font-size: 40px;
+}
+.TextoLIMA h2{
+    margin-left: 230px;
+}
+.espaco{
+    background-color:gray;
+    padding: 2vh;
+}
+.espaco2{
+    padding: -2vh;
+}
+.espaco3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    justify-content: space-between;
+}
+.espaco4{
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+    justify-content: space-between;
+}
+.borda{
+    border-radius: 20px;
+    background: black;
+    border: 5px solid grey;
+}
+.borda2{
+    border-radius: 20px;
+    background: black;
+    border: 5px solid grey;
+    height: 700px;
+}
